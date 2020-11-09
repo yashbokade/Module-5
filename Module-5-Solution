@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Practical 6</title>
+</head>
+<body bgcolor="skyblue">
+<h1 align="center">Application Form</h1>
+<form>
+First Name : &nbsp &nbsp &nbsp <input type="text" name="t1"><br>
+<br>
+Middle Name : &nbsp <input type="text" name="t2"><br>
+<br>
+Last Name : &nbsp &nbsp &nbsp <input type="text" name="t3"><br>
+<br>
+Age :   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" name="t3"><br>
+<br>
+Gender : &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="r1" value="Male">Male
+         &nbsp &nbsp <input type="radio" name="r1" value="Female">Female<br><br>
+Address : &nbsp &nbsp &nbsp &nbsp &nbsp <textarea name="t4"></textarea><br><br>
+State : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <select name="l1">
+                    <option></option>
+                    <option>Andhra Pradesh</option>Andhra Pradesh
+                    <option>Asam</option>Asam
+					<option>Bihar</option>Bihar
+                    <option>Chhattisgarh</option>Chhattisgarh
+					<option>Goa</option>Goa
+					<option>Gujrat</option>Gujrat
+					<option>Haryana</option>Haryana
+					<option>Karnatak</option>Karnatak
+					<option>Kerala</option>Kerala
+					<option>Madhya Pradesh</option>Madhya Pradesh
+					<option>Maharashtra</option>Maharashtra
+					<option>Nagaland</option>Nagaland
+					<option>Odisha</option>Odisha
+					<option>Punjab</option>Punjab
+					<option>Rajasthan</option>Rajasthan
+					<option>Tamil Nadu</option>Tamil Nadu
+					<option>Uttar Pradesh</option>Uttar Pradesh
+					<option>West Bengal</option>West Bengal
+					</select><br><br>
+Email-id : &nbsp &nbsp &nbsp &nbsp <input type="text" name="t5"><br><br>
+Field of interest : &nbsp <input type="checkbox" name="b1">Sports
+                                <input type="checkbox" name="b2">Coding
+								<input type="checkbox" name="b3">Dancing
+								<input type="checkbox" name="b4">Singing
+								<input type="checkbox" name="b5">Cycling
+								<input type="checkbox" name="b6">Painting
+								<input type="checkbox" name="b7">Writing
+								<input type="checkbox" name="b8">Cooking<br><br>
+<input type="submit" name="s1" value="Submit"> &nbsp &nbsp 
+<input type="reset" name="c1" value="Reset"><br><br>
+</form>
+</body>
+</html>
